@@ -1662,7 +1662,7 @@ def main():
             net             = dict(default=None),
             pid             = dict(default=None),
             insecure_registry = dict(default=False, type='bool'),
-            log_driver      = dict(default=None, choices=['json-file', 'none', 'syslog']),
+            log_driver      = dict(default=None, choices=['json-file', 'none', 'syslog', 'fluentd']),
             log_opt         = dict(default=None, type='dict'),
             cpu_set         = dict(default=None),
             cap_add         = dict(default=None, type='list'),
